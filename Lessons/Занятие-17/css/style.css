@@ -1,0 +1,9 @@
+body{
+	padding: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../images/fon.jpg);
+					  /*url(../images/1.png); /* GIF, JPG, PNG, SVG */
+	background-position: top;
+	background-attachment: fixed;	 
+}
+ 

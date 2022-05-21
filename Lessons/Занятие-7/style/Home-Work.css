@@ -1,0 +1,35 @@
+a:link{
+    color: lawngreen;
+} 
+a:visited{
+    color: rgb(240, 153, 22);
+}
+a:hover{
+    color: lightgoldenrodyellow;
+    background-color: lightslategray;
+}
+a:active{
+   font-size: 20px;
+}
+h1::first-letter{
+    font-size: 24px;
+    color: limegreen;
+}
+h2::first-letter{
+    font-size: 024px;
+    color: mediumorchid;
+}
+h3::first-letter{
+    font-size: 24px;
+    color: midnightblue;
+}
+p::first-line{
+    font-style: italic;
+}
+.class1::after{
+    content: "Повторение - мать учения!";
+}
+::selection{
+   background: black;
+    color: lightgrey;
+}

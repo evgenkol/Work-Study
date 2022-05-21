@@ -1,0 +1,40 @@
+body{
+    padding: 30px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav1 li{
+    display: inline-block;
+}
+.nav1 a{
+    padding: 5px 10px;
+    margin: 1px;
+    text-decoration: none;
+    background: rgb(129, 67, 67);
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.nav1 a:hover{
+    background: blanchedalmond;
+    color: rgb(65, 43, 43);
+}
+.nav a{
+    display: block;
+    background: black;
+    color: #fff;
+    width: 200px;
+    line-height: 1.5em;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid rgb(74, 82, 85);
+    border-radius: 0px 5px 5px 0px;
+}
+.sea{
+    width: 350px;
+    border-radius: 10px;
+}

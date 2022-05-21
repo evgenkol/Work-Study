@@ -1,0 +1,23 @@
+h1{
+    font-size: 4em;
+    font-family: 'Architects Daughter', cursive, sans-serif;
+    text-shadow: 8px 9px 9px rgba(0, 0, 0, 0.7);
+}
+.p1{
+    padding: 5px 10px;
+    color: rgb(243, 203, 22);
+    background-image: url(../images/p11.jpg);
+}
+.p2{
+    padding: 5px 10px;
+    color: rgb(98, 201, 29);
+    background-image: url(../images/p22.jpg);
+}
+.p3{
+    padding: 5px 10px;
+    background-image: url(../images/p33.jpg);
+}
+.p4{
+    padding: 5px 10px;
+    background-image: url(../images/p44.jpg);
+}

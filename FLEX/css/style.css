@@ -1,0 +1,84 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------- */
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  overflow: inherit;
+  padding: 50px;
+}
+/* }------------------ */
+.block {
+  /* text-align: right; */
+}
+.block__row {
+  display: flex;
+  flex-direction: column;
+  border: 20px solid yellow;
+  margin: 0px 0px 2s0px 0px;
+  justify-content: space-between;
+  /* align-items: start; */
+  /* align-items: center; */
+  height: 900px;
+}
+
+.block__colum {
+  border: 20px solid rgb(248, 72, 225);
+}
+.block__colum-1 {
+  /* align-self: flex-end; */
+}
+.block__colum-2 {
+  flex: 1 1 auto;
+}
+.block__colum-3 {
+  /* align-self: flex-start; */
+}
+
+.block__item {
+  background-color: rgb(13, 194, 240);
+  padding: 50px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.block__list {
+  display: flex;
+  align-items: center;
+}

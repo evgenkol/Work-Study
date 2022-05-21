@@ -1,0 +1,55 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+.block {
+  /* display: none; */
+  /* display: inline; */
+  overflow: hidden;
+  min-height: 200px;
+  /* max-height: 500px; */
+  min-width: 300px;
+  /* width: 500px; */
+  max-width: 500px;
+  padding: 20px 10px 30px 20px;
+  margin: 20px;
+  border: 1px solid #000;
+}
+.string {
+  display: inline-block;
+  /* display: block; */
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #000;
+}

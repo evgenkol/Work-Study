@@ -1,0 +1,52 @@
+body{
+    padding: 20px;
+    background: rgb(178, 226, 233);
+}
+h1{
+    text-align: center;
+    color: snow;
+    font-size: 3em;
+    margin: 10px 200px;
+    border: 2px solid rebeccapurple;
+    background: sienna;
+    border-radius: 30px 60px 30px 60px;
+}
+div{
+    border: 2px solid steelblue;
+    padding: 5px 10px;
+    margin: 15px 0px;
+    float: left;
+    min-height: 300px;
+}
+.home1{
+    width: 65%;
+    box-sizing: border-box;
+    }
+.home2{
+    width: 35%;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    background: rgba(155, 128, 166, 0.6);
+    box-shadow: -24px 21px 13px 2px rgba(34, 60, 80, 0.5)
+}
+.home3{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.home4{
+    width: 33.3%;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgba(155, 128, 166, 0.6);
+    box-shadow: -24px 21px 13px 2px rgba(34, 60, 80, 0.5)
+}
+.home5{
+    width: 33.3%;
+    box-sizing: border-box;
+    float: right;
+}
+.home6{
+    max-height: 40px;
+    box-sizing: border-box;
+}

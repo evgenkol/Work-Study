@@ -1,0 +1,35 @@
+body{
+	padding: 20px;
+}
+h1{
+	text-shadow: -4px 9px 3px rgba(37, 69, 94, 0.8); /*Горизонталь, вертикаль, глубина размытия и цвет*/
+	text-align: center;
+}
+p{
+	line-height: 1.5em;
+	border: 2px solid rgb(235, 121, 8);
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+h2:first-letter{
+	font-size: 40px;
+	font-weight: bold;
+	background: #000;
+	color:#fff;
+	padding: 4px;
+}
+ol{
+	
+	list-style-position: unset;
+	 border: 1px solid #987;
+	 list-style-position: inside;
+		 /*list-style-image: url(../images/1.png);*/
+}
+a[href="/"]{
+	font-size: 1.5em;
+	text-decoration: none;
+}
+a:hover[href="/"]{
+	text-decoration: underline;
+}
+

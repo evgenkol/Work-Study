@@ -1,0 +1,11 @@
+body{
+	background: #fffff1;
+}
+h1{
+	font-size: 2em;
+	text-align: center;
+	font-weight: normal;
+	text-shadow: 7px 7px 5px grey;
+	display: block;
+}
+

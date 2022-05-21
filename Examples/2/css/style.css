@@ -1,0 +1,82 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+body {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+/* ------------------ */
+.arial {
+  font-family: "Courier New", Courier, monospace;
+}
+.font30 {
+  font-size: 30px;
+}
+.italic {
+  font-style: italic;
+}
+.font700 {
+  font-weight: 700;
+}
+.colorred {
+  color: #f00f00;
+}
+.textright {
+  text-align: right;
+}
+.decoration {
+  text-decoration: line-through;
+}
+.shadow {
+  text-shadow: 1px 1px 5px #000;
+}
+.uppercese {
+  text-transform: uppercase;
+}
+.ident {
+  text-indent: 50px;
+}
+.letter {
+  letter-spacing: 5px;
+}
+.word {
+  word-spacing: 5px;
+}
+.whitespace {
+  white-space: normal;
+}
+.lineheight {
+  line-height: 20px;
+  text-align: justify;
+}

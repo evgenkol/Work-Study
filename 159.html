@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Yevhen Kolobaiev">
+	<title>Проверка Web-form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<style rel="stylesheet" type="text/css">
+	body{
+		width: 550px;
+		background: rgb(120, 180, 220);
+		color: rgb(255, 255, 255);
+		margin: 0 auto;
+		padding-left: 10px;
+		font-family: 'Oxygen', sans-serif;
+	}
+	h1{
+
+		font-size: 2em;
+		border-bottom: dotted 2px #000;
+		width: 500px;
+	}
+	p{
+		margin-bottom: 20px;
+	}
+	.subform{
+		font-size: 110%;
+	}
+	.subform label{
+		display: inline-block;
+		padding: 5px 0px;
+		width: 230px;
+		vertical-align: top;
+		text-align: left;
+		margin-right: 10px;
+		font-weight: bolder;
+	}
+	.subform label.rad{
+		margin-left: 60px;
+		max-width: 40px;
+		font-size: .7em;
+	
+	}
+	.subform input[value="1"], .subform input[value="2"], .subform input[value="3"]{
+		margin-right: 0px;
+
+	}
+	.subform input[type="submit"]{
+		margin-left: 243px;
+		padding: 8px 15px;
+		border: 2px solid darkblue;
+		border-radius: 5px;
+		background: steelblue;
+		color: bisque;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+	.subform input[type="text"], .subform input[type="email"], .subform textarea{
+		width: 250px;
+		border-radius: 5px;
+		border: none;	
+	}
+	.subform input[type="text"]:focus, .subform input[type="email"]:focus, .subform textarea:focus{
+		color: #000;
+		background: rgb(165, 205, 231);
+	}
+	
+</style>
+<article>
+	<h1>Форма ученика HTML</h1>
+	<form method="POST" action="php" class="subform">
+		<p>
+			<label for="name">Как вас зовут?</label>
+			<input type="text" name="name" id="name">
+		</p>
+		<p>
+			<label for="email">Введите вашу почту</label>
+			<input type="email" name="email" id="email">
+		</p>
+		<p>Есть опыт в изучении:
+			<label class="rad">
+				<input type="radio" name="skill" value="1">
+				JavaScript
+			</label>
+			<label class="rad">
+				<input type="radio" name="skill" value="2">
+				HTML & CSS
+			</label>
+			<label class="rad">
+				<input type="radio" name="skill" value="3">
+				PHP	
+			</label>		
+		</p>
+		<p>
+			<label for="goal">Какую цель преследую:</label>
+			<select name="goal" id="goal">
+				<option>Хочу сменить профессю</option>
+				<option>Повысить скилл</option>
+				<option>Как хобби</option>
+				<option>Хочу быть фрилансером</option>
+			</select>
+		</p>
+		<p>
+			<label for="comments">Ваше пожелание</label>
+			<textarea name="comments" cols="40" rows="5" id="comments">
+			</textarea>
+		</p>
+		<p>
+			<input type="submit" name="Отправить">
+		</p>
+	</form>
+</article>
+</body>
+		
+</html>

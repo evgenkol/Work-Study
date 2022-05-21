@@ -1,0 +1,29 @@
+body{
+	padding: 20px;
+	background: rgb(209, 199, 199);
+}
+
+h1, h2, h3{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 30px;
+	color: tomato;
+}
+p{
+	font-size: 1.2em;
+	font-family: 'Source Serif Pro', serif;
+	/*color: 	#f34;
+	background-color: #011;
+	text-transform: uppercase;
+	font-variant: 	small-caps;
+	text-decoration: underline;*/
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: royalblue ;
+}
+a:hover{
+	text-decoration: underline; 
+}
