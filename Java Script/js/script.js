@@ -37,19 +37,22 @@
 //   if (num1 == 20) break;
 // }
 
-let num = 0;
-for (; num < 9; num++) {
-  if (num == 5) break;
-  console.log(num);
-}
+// let num = prompt("Enter Number:1-6");
+// for (; num < 9; num++) {
+//   if (num == 7) break;
+//   console.log(num);
+// }
 
-function calcf(a, b) {
+function calcsum(a = 2, b = 3) {
   let sum = a + b;
   let prod = a * b;
-  let remainder = prod / sum;
+  let remainder = prod + sum;
   console.log(sum);
   console.log(prod);
   console.log(`Сумма функций ${remainder}`);
   return remainder;
+  if (condition) {
+  }
 }
-calcf(6, 6);
+calcsum(6, 7);
+calcsum();
