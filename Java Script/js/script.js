@@ -49,7 +49,7 @@ function calcf(a, b) {
   let remainder = prod / sum;
   console.log(sum);
   console.log(prod);
-  console.log(remainder);
+  console.log(`Сумма функций ${remainder}`);
   return remainder;
 }
 calcf(6, 6);
