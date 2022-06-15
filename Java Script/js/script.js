@@ -1,9 +1,16 @@
-// function oddCount(n) {
-//   if (n % 0 !== 0) {
-//     return Math.floor(n / 2);
-//   }
+function lovefunc(f1, f2) {
+  let a = f1 % 2 == 0;
+  let b = f2 % 2 == 0;
+
+  if (a != b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// function lovefunc(f1, f2) {
+
 // }
 
-let oddCount = (n) => Math.floor(n / 2);
-
-console.log(oddCount(15));
+console.log(lovefunc(0, 0));
