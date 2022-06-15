@@ -1,18 +1,9 @@
-// function min(arr) {
-//   let minNum = Math.min(...arr);
-//   return minNum;
+// function oddCount(n) {
+//   if (n % 0 !== 0) {
+//     return Math.floor(n / 2);
+//   }
 // }
 
-// function max(arr) {
-//   let maxNum = Math.max(...arr);
-//   return maxNum;
-// }
+let oddCount = (n) => Math.floor(n / 2);
 
-// let min = (arr) => Math.min(...arr);
-// let max = (arr) => Math.max(...arr);
-
-let min = (arr) => arr.sort((a, b) => a - b)[0];
-let max = (arr) => arr.sort((a, b) => b - a)[0];
-
-console.log(max([4, 6, 2, 1, 9, 63, -134, 566]));
-console.log(min([-52, 56, 30, 29, -54, 0, -110]));
+console.log(oddCount(15));
