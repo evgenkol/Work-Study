@@ -1,22 +1,13 @@
-let humanYearsCatYearsDogYears = function (humanYears) {
-  console.log(humanYears);
-  let catYears =
-    humanYears == 1
-      ? humanYears + 15 - humanYears
-      : humanYears == 2
-      ? humanYears + 15 + 9 - humanYears
-      : (humanYears - 2) * 4 + 24;
-  let dogYears =
-    humanYears == 1
-      ? humanYears + 15 - humanYears
-      : humanYears == 2
-      ? humanYears + 15 + 9 - humanYears
-      : (humanYears - 2) * 5 + 24;
+// function betterThanAverage(classPoints, yourPoints) {
+//   let classAverage = classPoints.reduce((a, b) => a + b, 0);
+//   console.log(classAverage);
 
-  return [humanYears, catYears, dogYears];
-};
+//   yourPoints > classAverage ? true : false;
+// }
 
-console.log(humanYearsCatYearsDogYears(1));
-console.log(humanYearsCatYearsDogYears(2));
-console.log(humanYearsCatYearsDogYears(10));
-console.log(humanYearsCatYearsDogYears(20));
+let betterThanAverage = (classPoints, yourPoints) =>
+  yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
+
+// console.log(yourPoints);
+// console.log(classPoints);
+console.log(betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 88));
