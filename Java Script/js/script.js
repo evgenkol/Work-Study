@@ -1,3 +1,12 @@
-let isDivisible = (n, x, y) => n % x == 0 && n % y == 0;
+let well = (x) =>
+  x.filter((a) => a == "good").length == 0
+    ? "Fail!"
+    : x.filter((a) => a == "good").length <= 2
+    ? "Publish!"
+    : "I smell a series!";
 
-console.log(isDivisible(3, 3, 4));
+console.log(
+  well(["good", "bad", "bad", "bad", "bad", "good", "bad", "bad", "good"])
+);
+console.log(well(["bad", "bad", "bad"]));
+console.log(well(["good", "bad", "bad", "bad", "bad"]));
