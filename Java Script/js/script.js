@@ -1,6 +1,3 @@
-String.prototype.toAlternatingCase = function () {
-  return this.split("")
-    .map((l) => (l === l.toUpperCase() ? l.toLowerCase() : l.toUpperCase()))
-    .join("");
-};
-console.log(toAlternatingCase("HeLLo WoRLD"));
+let isDivisible = (n, x, y) => n % x == 0 && n % y == 0;
+
+console.log(isDivisible(3, 3, 4));
