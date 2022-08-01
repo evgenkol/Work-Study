@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let message = "Hello!";
 let number = 2;
 if (2 > 1) {
@@ -57,4 +56,3 @@ console.log(find_average([1, 1, 1]));
 let a = (a, b) => a.filter((x) => !b.includes(x));
 
 console.log(a([5], [12]));
->>>>>>> 97697ee75bda774216f3a1e2a902c6fd2722f01d
