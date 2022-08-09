@@ -52,7 +52,33 @@ console.log(Hero());
 
 let find_average = (array) => array.reduce((a, b) => a + b, 0) / array.length;
 console.log(find_average([1, 1, 1]));
-=======
 let a = (a, b) => a.filter((x) => !b.includes(x));
 
 console.log(a([5], [12]));
+
+let basicOp = (operation, value1, value2) => eval(value1 + operation + value2);
+
+console.log(basicOp("/", 49, 7));
+console.log(basicOp("+", 4, 7));
+
+let check = (a, x) => a.includes(x);
+console.log(check([66, 101], 66));
+
+let twoSort = (s) => s.sort()[0].split("").join("***");
+
+console.log(
+  twoSort([
+    "turns",
+    "out",
+    "random",
+    "test",
+    "cases",
+    "are",
+    "easier",
+    "than",
+    "writing",
+    "out",
+    "basic",
+    "ones",
+  ])
+);
