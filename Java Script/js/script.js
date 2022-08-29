@@ -82,3 +82,51 @@ console.log(
     "ones",
   ])
 );
+
+let orderedCount = (text) => {
+  let abc = "abcdefghijklmnopqrstuvwxyz";
+  return abc.split("").map((a) => text.indexOf(a) + 1);
+};
+console.log(orderedCount("bcm"));
+
+let divisibleBy = (numbers, divisor) =>
+  numbers.filter((a) => Number.isInteger(a / divisor));
+
+console.log(divisibleBy([1, 2, 3, 4, 5, 6], 2));
+
+function splitTheBill(x) {
+  let obj = { A: x.A - x.B, B: x.B - x.B, C: x.C - x.B };
+  return obj;
+}
+
+console.log(splitTheBill({ A: 20, B: 15, C: 10 }));
+console.log(splitTheBill({ A: 40, B: 25, X: 10 }));
+
+let maxMultiple = (divisor, bound) => bound - (bound % divisor);
+
+console.log(maxMultiple(3, 10));
+
+let summation = (num) => {
+  let arr = Array.from({ length: num }, (v, k) => k + 1);
+  return arr.reduce((a, b) => a + b, 0);
+};
+
+console.log(summation(8));
+
+let number1 = (array) => array.map((a, b) => b + 1 + ": " + a);
+
+console.log(number1(["a", "b", "c"]));
+
+let expressionMatter = (a, b, c) =>
+  Math.max(
+    a * (b + c),
+    a * b * c,
+    a + b * c,
+    (a + b) * c,
+    a * b + c,
+    a + b + c
+  );
+
+console.log(expressionMatter(2, 1, 2));
+console.log(expressionMatter(2, 1, 1));
+console.log(expressionMatter(1, 2, 3));
